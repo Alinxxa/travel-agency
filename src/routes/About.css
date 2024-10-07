@@ -1,0 +1,18 @@
+.about_us{
+    background-color: #e4fdf9;
+    /* color: aliceblue; */
+    /* font-size: 30px;
+    margin-left: 20%; */
+    /* justify-content: left; */
+}
+
+.about_us_text{
+    /* color: aliceblue;  */
+}
+
+.search{
+    width: 300px;
+    height: 50px;
+    border: solid 2px;
+    border-radius: 3px 0px 0px 3px;
+}

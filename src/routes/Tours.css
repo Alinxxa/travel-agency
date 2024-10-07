@@ -1,0 +1,159 @@
+.latest_work{
+    width: 100%;
+    background-color: #e4fdf9;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 3%;
+    
+  }
+  
+  .latest_buttoms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .latest_buttom{
+    color: #212121;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 51px;
+    outline: 3px solid #00897b;
+    height: 51px;
+    margin-left: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+    
+  }
+  
+  .latest_buttom:hover{
+    background-color: #00897b;
+    color: white;
+  }
+  
+  .latest_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .latest_card{
+    display: flex;
+    position: relative; 
+    overflow: hidden;
+    width: 370px;
+    height: 370px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .latest_text{
+    position: absolute;
+    left: 0;
+    bottom: -100%; 
+    text-align: center;
+    width: inherit; 
+    height: inherit;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.7 );
+    transition: bottom 0.3s;
+    color: white;
+  }
+  
+  .latest_text_title{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 145px;
+  }
+  
+  .latest_text_sub{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+  }
+  
+  .latest_card:hover .latest_text {
+    bottom: 0%;
+  }
+  
+  .latest_img{
+    width: 100%;
+  } 
+  
+  .img1{
+    width: 100%;
+  }
+  .img2{
+    width: 100%;
+  }
+  .img3{
+    width: 100%;
+  }
+  .img4{
+    width: 100%;
+  }
+  .img5{
+    width: 100%;
+  }
+  .img6{
+    width: 100%;
+  }
+  
+  .view_all_buttom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* align-items: center; */
+  }
+  
+  .buttom_view_all{
+    color: white;
+    background-color: #00897b;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    width: 220px;
+    height: 70px;
+    margin-bottom: 10px;
+    border: 0;
+  
+  }
+  .buttom_view_all:hover{
+    color: white;
+  
+    outline: 4px solid #00897b;
+  
+    
+  }
+
+  .about_us{
+    color: #212121;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 3%;
+    padding-top: 3%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .about_us_text{
+    color: #212121;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5%;
+    position: relative;
+    z-index: 1;
+  }
+  

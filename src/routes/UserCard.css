@@ -1,0 +1,25 @@
+.userCard{
+    background-color: #47716e;
+    width: 50%;
+    display: flex;
+    margin: 20px 20px 20px 27%;
+    text-align: justify;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.imgAvatar{
+    border-radius: 100px;
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+p{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 20px;
+}

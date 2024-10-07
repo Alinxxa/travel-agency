@@ -1,0 +1,39 @@
+body {
+    /* background-color: rgb(231, 143, 202); */
+  }
+  
+  .logo {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 40px;
+  }
+  
+  .side {
+    color: aliceblue;
+    display: flex;
+    width: 100vw;
+    background-color: #00897b;
+    /* justify-content: space-between; */
+  }
+  
+  .sidebar {
+    margin-left: 600px;
+  }
+  
+  nav h1 {
+    display: inline-block;
+    font-size: 25px;
+    color: aliceblue;
+    transition: .5s;
+    padding-left: 30px;
+  
+    
+  }
+  
+  nav h1:hover {
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
